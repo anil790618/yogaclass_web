@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Kanit&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Roboto&family=Rubik+Moonrocks&family=Staatliches&family=Vesper+Libre:wght@900&display=swap');
+
+body {
+    background-color: #f4f9f4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.navbar .logo img {
+    background-color: #a7d7c5;
+    padding: 10px;
+}
+
+.navbar .ul {
+    display: flex;
+    justify-content: end;
+    background-color: #e2ede8;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+
+
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 10px 40px;
+}
+
+.bannersection {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bannersection .image {
+    /* border: 2px solid red; */
+    width: 40%;
+}
+
+.bannersection .text h1 {
+    font-size: 6rem;
+}
+
+.bannersection .text {
+    width: 40%;
+    text-align: center;
+    color: #6c9894;
+}
+
+.bannersection .text p {
+    font-size: 20px;
+}
+
+.bannersection button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #6c9894;
+    border: none;
+    color: white;
+}
+
+.chooseClass {
+    background-color: #6c9894;
+    color: white;
+}
+
+.chooseClass .text {
+    padding: 50px 0;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.chooseClass .text h2 {
+    font-size: 3rem;
+}
+
+.cardsection .card1 {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.cardsection .card {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.cardsection {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.designimage {
+    position: absolute;
+    right: -10%;
+    bottom: -27%;
+}
+
+.mobile-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu ul {
+    list-style-type: none;
+    padding: 20px 50px;
+    background-color: white;
+
+}
+
+.mobile-menu ul li {
+    padding: 5px;
+    border-bottom: 2px solid grey;
+}
+
+.mobile-menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    /* line-height: 30px; */
+    color: black;
+}
+
+.ourState {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(images/Shape.png);
+    background-size: cover;
+    background-position: center;
+
+    padding: 50px 0;
+}
+
+.cardsection .card1 {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.cardsection .mycard {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10px 0; */
+}
+
+.instructor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6c9894;
+    color: #f4f9f4;
+    /* min-height: 600px; */
+    overflow: hidden;
+}
+
+.instructor .image img {
+    width: 80%;
+    /* height: 100%; */
+}
+
+.instructor .image {
+    width: 40%;
+}
+
+.instructor .text {
+    width: 40%;
+}
+
+.instructor .text h2 {
+    font-size: 6rem;
+}
+
+.instructor .text p {
+    font-size: 1.5rem;
+}
+
+.instructor button {
+    background-color: #f4f9f4;
+    color: #6c9894;
+    padding: 10px 30px;
+    margin: 30px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.bestins {
+    background-color: #f4f9f4;
+    color: #6c9894;
+}
+
+.cardsection .card {
+    background-color: #a7d7c5;
+    width: 300px;
+    padding: 50px;
+    margin: 10px auto;
+}
+
+.card12 button {
+    padding: 10px 30px;
+    margin: 30px;
+    white-space: nowrap;
+    border: none;
+    border-radius: 20px;
+    color: #6c9894;
+
+}
+
+.trainer {
+    background: url(images/Trainer_dev.png) no-repeat center center/cover;
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    padding: 50px;
+    color: #6c9894;
+}
+
+.trainer>.text {
+    margin-top: 50px;
+    width: 50%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.trainer>.text h2 {
+    padding: 20px;
+}
+
+.subscription {
+    width: 100%;
+    min-height: 600px;
+    background-color: #6c9894;
+    color: #cfd8d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subscription .text {
+    width: 50%;
+}
+
+.subscription .text h2 {
+    padding: 20px 0;
+    font-size: 3rem;
+}
+
+.subscription .text p {
+    font-size: 1.5rem;
+}
+
+.subscription .text .form {
+    padding-top: 50px;
+    /* margin-top: 50px; */
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+#email {
+    width: 70%;
+    padding: 10px 0 10px 10px;
+    float: left;
+}
+
+#submit {
+    width: 30%;
+    padding: 10px 30px;
+    float: left;
+}
+.footersection{
+    display: flex;
+    padding: 50px;
+    font-size: 1.3rem;
+    color: #6c9894;
+}
+.footersection h3{
+    font-size: 2rem;
+}
+.footersection .sec{
+    
+    width: 40%;
+}
+.footersection .sec1{
+    width: 20%;
+}
+.bottomfooter{ 
+    text-align: center;
+    background-color: #6c9894;
+    padding: 30px;
+    color: #a7d7c5;
+    font-weight: bold;
+}
+@media screen and (max-width:800px) {
+    .mobile-icon {
+        display: block;
+    }
+
+    .ul>ul {
+        display: none;
+    }
+
+    .bannersection {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .bannersection .image {
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+
+    .bannersection .text h1 {
+        font-size: 3rem;
+    }
+
+    .bannersection .text {
+        width: 80%;
+    }
+
+    .bannersection .text p {
+        font-size: 1.3rem;
+    }
+
+    .cardsection {
+        flex-direction: column;
+    }
+
+    .chooseClass .text {
+        width: 80%;
+    }
+
+    .chooseClass .text h2 {
+        font-size: 2rem;
+    }
+
+
+    .instructor {
+        flex-direction: column;
+    }
+
+    .instructor .image img {
+        width: 100%;
+    }
+
+    .instructor .image {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .instructor .text {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .instructor .text h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .instructor .text p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .instructor button {
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .trainer { 
+        padding: 20px; 
+    }
+    
+    .trainer>.text {
+        margin-top: 50px;
+        width: 80%;  
+    }
+
+    
+ 
+.subscription .text {
+    width: 80%;
+}
+
+.subscription .text h2 { 
+    font-size: 2rem;
+}
+
+.subscription .text p {
+    font-size: 1.3rem;
+}
+
+.subscription .text .form {
+    padding-top: 50px;
+    /* margin-top: 50px; */
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+ 
+.footersection{ 
+    flex-direction: column;
+    justify-content: center; 
+    /* white-space: nowrap; */
+} 
+.footersection .sec{ 
+    width: 80%;
+    margin-top: 20px;
+}
+.footersection .sec1{
+    width: 80%;
+    margin-top: 20px;
+}
+.bottomfooter{ 
+    text-align: center;
+    background-color: #6c9894;
+    padding: 30px;
+    color: #a7d7c5;
+    font-weight: bold;
+}
+   
+.cardsection .mycard { 
+    width: 200px;
+    height: 200px; 
+}
+    
+
+
+.cardsection .card {
+    background-color: #a7d7c5;
+    width: 250px;
+    padding: 10px;
+}
+
+.card12 button {
+    padding: 10px 30px;
+    margin: 30px 0;
+  
+    border: none;
+    border-radius: 20px;
+    color: #6c9894;
+
+}
+#email {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    float: left;
+}
+
+#submit {
+    width: 100%;
+    padding: 10px 30px;
+    float: left;
+}
+}
